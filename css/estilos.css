@@ -109,7 +109,7 @@ button{
 }
 /*----------------------------- Inicio de sesion------------------------------- */
 
-/* ------------------------------   ---------------------------------------- */
+/* ------------------------------ Pagina 1------------------------------------- */
 header{
     height: 15%;
     background-color: #222;
@@ -119,4 +119,40 @@ header{
     font-size: 3em;
     color: #C72418;
     text-align: center;
+}
+/* ---------------------------- Grilla ----------------------------------------*/
+.cajaP{
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:[x0] [x1] [x2] [x3] [x4] [x5] [x6];
+    grid-template-rows:[y0] [y1] [y2] [y3] [y4] [y5] ;
+    background-color: #8b5b6b   ;
+}
+.caja1,.caja3,.caja5,.caja7{
+    background-color: aqua;
+}
+.caja2,.caja4,.caja6{
+    background-color: #C72418;
+}
+.caja1{
+    grid-column: x0/x2;
+    grid-row: y0/y1;
+}
+.caja2{
+    grid-column: x3/x6;
+    grid-row: y2/y3;
+}
+.caja3{
+    grid-column: ;
+    grid-row: ;
+}
+.caja4{
+    grid-column: ;
+    grid-row: ;
+}
+.caja5{
+    grid-column: ;
+    grid-row: ;
 }
